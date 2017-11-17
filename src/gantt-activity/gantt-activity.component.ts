@@ -50,9 +50,9 @@ export class GanttActivityComponent implements OnInit, DoCheck {
 
   public gridColumns: any[] = [
     {name: '', left: 0, width: 16},
-    {name: 'Task', left: 20, width: 330},
-    {name: '%', left: 8, width: 40},
-    {name: 'Duration', left: 14, width: 140}
+    {name: '项目', left: 20, width: 330},
+    {name: '', left: 8, width: 40},
+    {name: '持续时间', left: 14, width: 140}
   ];
 
   constructor(public ganttService: GanttService) {

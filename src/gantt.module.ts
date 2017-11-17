@@ -1,3 +1,4 @@
+import { GanttService } from './gantt.service';
 import {NgModule} from '@angular/core';
 
 import {GanttActivityComponent} from './gantt-activity/gantt-activity.component';
