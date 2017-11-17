@@ -25,7 +25,7 @@ import {CommonModule} from '@angular/common';
   imports: [
     CommonModule,
   ],
-  providers: [],
+  providers: [GanttService],
   exports: [GanttComponent],
   bootstrap: [GanttComponent]
 })
